@@ -1,4 +1,4 @@
-import Student from "../models/student.js";
+import Student from "../models/Student.js";
 const studentsDaos = {};
 
 //Este es un metodo que tiene todos los estudiantes
