@@ -8,7 +8,8 @@ const router = Router();
 router.get('/getAll',teacherControllers.getAll);
 router.get('/getOne/:teacher_id',teacherControllers.getOne);
 router.post('/insertOne',teacherControllers.insertOne);
-router.put('/updateOne/:teacher_id',teacherControllers.updateOne);
+router.post('/updateOne/:teacher_id',teacherControllers.updateOne);
 router.delete('/deleteOne/:teacher_id',teacherControllers.deleteOne);
+router.get('/deleteOne/:teacher_id',teacherControllers.deleteOne);
 
 export default router;
